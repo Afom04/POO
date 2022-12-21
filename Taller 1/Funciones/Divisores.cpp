@@ -17,12 +17,12 @@ int main() {
 		cin>>x;
 		cin>>y;
 	}
-	divisores(x,y);//Envío de valores a la función para sacar sus divisores y ver cual tiene mayor cantidad
+	divisores(x,y);//EnvÃ­o de valores a la funciÃ³n para sacar sus divisores y ver cual tiene mayor cantidad
 	getch();
 	return 0;
 }
 
-bool validar(int c, int d) { //Función booleana para válidar que el valor no sea menor a 1
+bool validar(int c, int d) { //FunciÃ³n booleana para vÃ¡lidar que el valor no sea menor a 1
 	if(c<=0 || d<=0) {
 		return true;
 	} else {
@@ -30,7 +30,7 @@ bool validar(int c, int d) { //Función booleana para válidar que el valor no sea
 	}
 }
 
-void divisores(int a,int b) {//Función de tipo Void que muestra los divisores y acumula la cantidad de estos para válidarlos
+void divisores(int a,int b) {//FunciÃ³n de tipo Void que muestra los divisores y acumula la cantidad de estos para vÃ¡lidarlos
 	int contadorA=0, contadorB=0;;
 	cout<<"El numero "<<a<<" tiene estos divisores:"<<endl;
 	for(int i=1; i<=a; i++) {
@@ -47,10 +47,10 @@ void divisores(int a,int b) {//Función de tipo Void que muestra los divisores y 
 			contadorB ++;
 		}
 	}
-	evaluar(contadorA,contadorB,a,b);//Envío de los contadores para evaluar cuál tiene mayor cantidad de divisores
+	evaluar(contadorA,contadorB,a,b);//EnvÃ­o de los contadores para evaluar cuÃ¡l tiene mayor cantidad de divisores
 }
 
-void evaluar(int cont1,int cont2,int a,int b) {//Función void que compara la cantidad de de divisores de cada numero
+void evaluar(int cont1,int cont2,int a,int b) {//FunciÃ³n void que compara la cantidad de de divisores de cada numero
 	if(cont1>cont2) {
 		cout<<endl<<"El numero "<<a<<" tiene mayor cantidad de divisores";
 	} else {
