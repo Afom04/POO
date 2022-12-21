@@ -1,4 +1,4 @@
-/*Andrey Felipe Orozco Montoya// codigo 20221678022
+/*
 9 Hacer un programa que calcule el factorial de un número dado (iterativo y recursivo)
 */
 #include <iostream>
