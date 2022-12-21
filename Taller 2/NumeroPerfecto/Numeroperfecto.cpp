@@ -1,4 +1,4 @@
-/*Andrey Felipe Orozco Montoya// codigo 20221678022
+/*
 3. Leer un número y decir si es perfecto (eje. 6: sus divisores son: 1,2,3 y la suma es = 6. El número
 es perfecto)
 */
