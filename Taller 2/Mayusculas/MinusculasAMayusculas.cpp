@@ -1,4 +1,4 @@
-/*Andrey Felipe Orozco Montoya// codigo 20221678022
+/*
 Leer una cadena (arreglo char)y pasarla a minúsculas/mayúsculas según corresponda (eje. Hola
 Mundo: ? hOLA mUNDO). Abstenerse de usar las funciones de string.h ‘A’ ‘a’
 */
