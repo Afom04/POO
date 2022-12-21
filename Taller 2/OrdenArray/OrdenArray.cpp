@@ -1,4 +1,4 @@
-/*Andrey Felipe Orozco Montoya cod:20221578022
+/*
 5 Leer un arreglo de números y ordenarlos de menor a mayor
 */
 #include <iostream>
