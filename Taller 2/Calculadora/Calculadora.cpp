@@ -1,4 +1,4 @@
-/*Andrey Felipe Orozco Montoya // Cod: 20221578022
+/*
 12 Realice un programa que lee dos números y realice las operaciones básicas (+, -, *, %), se debe
 utilizar un menú así:
 Menú principal
