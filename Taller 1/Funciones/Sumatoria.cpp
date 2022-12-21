@@ -7,41 +7,41 @@ void ordenar(int x,int y);
 void sumatoria(int x,int y);
 bool validar(int x, int y);
 void paridad(int impares[],int p,int pares[],int o);
-//Funci髇 principal
+//Funci贸n principal
 int main() {
 	int x=0,y=0;//Declaracion de variables a utilizar
-	while(validar( x, y)) {//Ciclo while que v醠ida por medio de una funci髇 que los valores sean v醠idos para trabajar
+	while(validar( x, y)) {//Ciclo while que v谩lida por medio de una funci贸n que los valores sean v谩lidos para trabajar
 		cout<<"Por favor ingrese 2 numeros enteros positivos"<<endl;
 		cin>>x;
 		cin>>y;
 	}
-	ordenar(x,y);//Env韔 de valores a la funci髇 para v醠idar cual n鷐ero es mayor
+	ordenar(x,y);//Env铆o de valores a la funci贸n para v谩lidar cual n煤mero es mayor
 	getch ();
 	return 0;
 }
-bool validar(int x, int y) { //Funci髇 booleana para v醠idar que el valor no sea menor a 0 o sean iguales
+bool validar(int x, int y) { //Funci贸n booleana para v谩lidar que el valor no sea menor a 0 o sean iguales
 	if(x<0 || y<0 || x==y) {
 		return true;
 	} else {
 		return false;
 	}
 }
-void ordenar(int x,int y) {//Funci髇 encargada de verificar cual variable es de mayor valor y reorganizarla para no alterar el c骴igo
+void ordenar(int x,int y) {//Funci贸n encargada de verificar cual variable es de mayor valor y reorganizarla para no alterar el c贸digo
 	int cambio;
-	if(x<y) {//Condicional que evalua si el segundo valor ingresado es mayor que el primero, para hacer un cambio de variables y no afectar el resto del c骴igo
+	if(x<y) {//Condicional que evalua si el segundo valor ingresado es mayor que el primero, para hacer un cambio de variables y no afectar el resto del c贸digo
 		cambio=x;
 		x=y;
 		y=cambio;
 	}
-	sumatoria(x,y);//Env韔 de variables a la funci髇 para mostrar la sumatoria de la distancia entre estos y mostrar cuales de estos son pares o impares
+	sumatoria(x,y);//Env铆o de variables a la funci贸n para mostrar la sumatoria de la distancia entre estos y mostrar cuales de estos son pares o impares
 }
 
-void sumatoria(int x,int y) {//Funci髇 encargada de acumular los valores entre X y Y, y separar por medio de vectores la paridad de estos mismos
+void sumatoria(int x,int y) {//Funci贸n encargada de acumular los valores entre X y Y, y separar por medio de vectores la paridad de estos mismos
 	int lim=x-y,o=0,p=0,pares[lim],impares[lim];//Declaracion de variables para separar la paridad de valores
 	int i=y,suma=0;//Declaracion de variables para realizar la sumatoria de valores intermedios
 	for (i; i<=x; i++) {
 		suma=suma+i;
-		if(i%2==0) {//Validaci髇 para separar la paridad de n鷐eros y guardarlos por medio de un array; usando un acumulador para mostrar la cantidad de cada tipo
+		if(i%2==0) {//Validaci贸n para separar la paridad de n煤meros y guardarlos por medio de un array; usando un acumulador para mostrar la cantidad de cada tipo
 			pares[o]=i;
 			o++;
 		} else {
