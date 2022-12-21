@@ -1,4 +1,4 @@
-/*Andrey Felipe Orozco Montoya// codigo 20221678022
+/*
 7 Leer una matriz y hallar la traspuesta (maneje dos matrices, una para la original y otra para la
 traspuesta e imprímalas)
 */
