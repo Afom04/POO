@@ -1,4 +1,4 @@
-/*Andrey Felipe Orozco Montoya // Cod: 20221578022
+/*
 8 Hacer un programa en C++ que calcule la paradoja del cumpleaños.
 */
 #include <iostream>
