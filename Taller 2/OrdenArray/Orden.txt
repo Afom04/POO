@@ -1,4 +1,0 @@
-Datos originales
-9 2 6 
-Datos ordenados
-2 6 9 
