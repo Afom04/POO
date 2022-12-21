@@ -1,4 +1,4 @@
-/*Andrey Felipe Orozco Montoya Cod: 20221578022
+/*
 6 Leer una matriz de números y ordenarla de mayor a menor
 */
 #include <iostream>
