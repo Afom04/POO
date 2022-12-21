@@ -1,0 +1,4 @@
+El numero 28 tiene como divisores a 
+1 2 4 7 14 
+Y la suma de estos es 28
+Por lo tanto es un numero perfecto

@@ -1,0 +1,2 @@
+La caracter ingresada fue <<|>> y su valor ascii es 124
+Su valor binario es 01111100

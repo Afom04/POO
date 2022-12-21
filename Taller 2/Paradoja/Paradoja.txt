@@ -1,0 +1,2 @@
+La probabilidad de que en un grupo de 57 de personas, dos cumplan años el mismo dia es de 99.0122%
+Por lo cual no cumplen el mismo dia 0.987754%

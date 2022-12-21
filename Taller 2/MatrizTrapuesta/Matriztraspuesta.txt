@@ -1,0 +1,6 @@
+La matriz original es 
+[ 1][ 2]
+[ 3][ 4]
+La matriz traspuesta es 
+[ 1][ 3]
+[ 2][ 4]

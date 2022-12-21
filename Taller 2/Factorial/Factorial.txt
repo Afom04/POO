@@ -1,0 +1,2 @@
+El factorial iterativo de 35 es 6399018521010896896
+El factorial recursivo de 35 es 6399018521010896896
