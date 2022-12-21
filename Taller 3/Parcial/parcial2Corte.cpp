@@ -1,5 +1,5 @@
-/*Andrey Felipe Orozco Montoya 20221578022
-2 Modelar dos arreglos dinámicos (int, float) siguiendo las siguientes reglas:*/
+/*
+2 Modelar dos arreglos dinÃ¡micos (int, float) siguiendo las siguientes reglas:*/
 #include <iostream>
 
 using namespace std;
@@ -41,7 +41,7 @@ int sobrecarga::menu() {/*Metodo encargado de mostrar un menu y recibir una opci
 	cout<<"2. Eliminar"<<endl;
 	cout<<"3. Imprimir"<<endl;
 	cout<<"4. Salir"<<endl;
-	cout<<"Por favor ingrese una opción"<<endl;
+	cout<<"Por favor ingrese una opciÃ³n"<<endl;
 	cin>>opcion;
 	if(opcion<1 || opcion>4) {//Validacion de opcion ingresada
 		cout<<"Opcion invalida"<<endl;
@@ -105,8 +105,8 @@ void sobrecarga::operator*(int*enteros) {/*Metodo con sobrecarga de operador y m
 int main() {
 	int *enteros;/*Definicion de direcciones de memorias para asignacion dinamica de memoria*/
 	float *flotantes;
-	int tamano=0;//Variable que contendra el tamaño de los vectores
-	while(tamano<=0) {//Ciclo para validar un tamaño plausible de los vectores
+	int tamano=0;//Variable que contendra el tamaÃ±o de los vectores
+	while(tamano<=0) {//Ciclo para validar un tamaÃ±o plausible de los vectores
 		cout<<"Por favor ingrese el tamano de los vectores "<<endl;
 		cin>>tamano;
 	}
