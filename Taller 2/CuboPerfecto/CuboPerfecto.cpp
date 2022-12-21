@@ -1,4 +1,4 @@
-/*Andrey Felipe Orozco Montoya// codigo 20221678022
+/*
 4 Leer un número y decir si es cubo perfecto (eje. 153: las sumatoria de sus cifras al cubo son
 iguales al número; 1^3+ 5^3+ 3^3= 153.
 */
