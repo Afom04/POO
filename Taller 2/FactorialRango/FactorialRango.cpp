@@ -1,4 +1,4 @@
-/*Andrey Felipe Orozco Montoya// codigo 20221678022
+/*
 10 Hacer un programa que calcule los factoriales desde m hasta n.
 */
 #include <iostream>
