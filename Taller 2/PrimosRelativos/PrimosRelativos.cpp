@@ -1,4 +1,4 @@
-/*Andrey Felipe Orozco Montoya //cod:20221578022
+/*
 11 Hacer un programa que lea dos números y diga si son primos relativos.
 */
 #include <iostream>
