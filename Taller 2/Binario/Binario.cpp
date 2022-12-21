@@ -1,4 +1,4 @@
-/*Andrey Felipe Orozco Montoya// codigo 20221678022
+
 2 Leer una cadena e imprimir su equivalente en decimal y en binario (eje. A ? vale 65 y en binario
 es 1000001 o si entra A->vale 97 y en binario 1100001).
 */
